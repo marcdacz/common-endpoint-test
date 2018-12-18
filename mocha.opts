@@ -1,0 +1,4 @@
+--require @babel/register
+--require ./config/setup
+--recursive ./config ./test 
+--timeout 300000
