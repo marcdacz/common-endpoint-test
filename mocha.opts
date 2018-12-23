@@ -1,4 +1,5 @@
 --require @babel/register
+--require mocha-steps
 --require ./config/setup
 --recursive ./config ./test 
 --timeout 300000
