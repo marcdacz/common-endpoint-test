@@ -2,4 +2,5 @@
 --require mocha-steps
 --require ./config/setup
 --recursive ./config ./test 
+--reporter mochawesome
 --timeout 300000
